@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
 public class MyConfig {
 
     @Bean
-    public OrderService orderService2(){
+    public OrderService orderService(){
         return new OrderService();
     }
 }

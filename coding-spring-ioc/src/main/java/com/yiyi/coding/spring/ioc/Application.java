@@ -16,5 +16,6 @@ public class Application {
         for( Map.Entry<String,OrderService> entry : applicationContext.getBeansOfType(OrderService.class).entrySet() ){
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
+        System.out.println("学习了理论");
     }
 }
